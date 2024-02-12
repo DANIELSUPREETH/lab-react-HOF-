@@ -1,11 +1,15 @@
 import React from 'react';
-import HigherOrderComponent from "/src/components/HigherOrderComponent.jsx";
+import HigherOrderFunctions from "./components/HigherOrderFunctions";
+
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <HigherOrderComponent/>
+      
+      <HigherOrderFunctions />
+
     </div>
   );
 }
